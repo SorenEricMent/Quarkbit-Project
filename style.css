@@ -1,0 +1,23 @@
+/*
+Theme Name: QuarkBit
+Theme URI: quarkbit.winsloweric.cn
+Description: Quarkbit Project
+Version: Insider Debug V1.05
+Author: Winslow SorenEricMent
+Author URI: www.winsloweric.cn
+Tags: QuarkBitTheme
+*/
+*{
+	padding:0px;
+	margin:0px;
+	font-family:"";
+}
+
+body{
+	background-color:rgba(205,205,205,0.8);
+}
+
+@font-face { 
+	font-family: QuarkBit-Theme1;
+	src: url("notosans3.otf");
+} 
