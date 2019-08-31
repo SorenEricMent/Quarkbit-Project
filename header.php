@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
 <title>
 <?php
 if (is_home()) {
@@ -16,19 +15,30 @@ if (is_home()) {
 } elseif (is_single() || is_page()) {
 	single_post_title();
 } elseif (is_search()) {
-	echo "搜索结果";
+	echo "Result";
 	echo " - ";
 	bloginfo('name');
 } elseif (is_404()) {
-	echo '页面未找到!';
+	echo 'Not Found';
 } else {
 	wp_title('', true);
 }
  ?>
 		</title>
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+		<link rel="stylesheet" href="/wp-content/themes/Quarkbit/header.css" type="text/css" media="screen" />
 	</head>
 	<body>
-		<div id="wrapper""></div>
+		<br/>
+		<header id="page-header">
+				&nbsp;&nbsp;<span class="grid_4"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></span>
+				<span class="grid_12 caption clearfix">&nbsp;<?php bloginfo('description'); ?></span>
+				<ul class="page-index">
+					<li class="index-details"><a class="index-links">奇怪的东西</a></li>
+					<li class="index-details"><a class="index-links">文章</a></li>
+					<li class="index-details"><a class="index-links">APIs</a></li>
+					<li class="index-details"><a class="index-links">关于我</a></li>
+				</ul>
+		</header>
 	</body>
 </html>

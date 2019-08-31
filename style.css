@@ -1,23 +1,90 @@
 /*
-Theme Name: QuarkBit
-Theme URI: quarkbit.winsloweric.cn
-Description: Quarkbit Project
-Version: Insider Debug V1.05
-Author: Winslow SorenEricMent
-Author URI: www.winsloweric.cn
-Tags: QuarkBitTheme
-*/
-*{
-	padding:0px;
-	margin:0px;
-	font-family:"";
+ Theme Name: QuarkBit
+ Theme URI: quarkbit.winsloweric.cn
+ Description: Quarkbit Project
+ Version: Insider Debug V1.32
+ Author: Winslow SorenEricMent
+ Author URI: www.winsloweric.cn
+ Tags: QuarkBitTheme
+ */
+
+* {
+	font-family: "NotoSansCJK-Light-3","Microsoft Yahei UI Light","Microsoft Yahei Light","PingFangSC-Ultralight","QuarkBit-Theme1";
+	text-decoration:none;
 }
 
-body{
-	background-color:rgba(205,205,205,0.8);
+body {
+	margin: 0px auto;
+	padding: 0px;
+	background: url(https://sorenericment.github.io/main-background.png);
+	filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+	height: 100%;
 }
 
-@font-face { 
+html {
+	margin: 0px auto;
+	padding: 0px;
+	height: 100%;
+}
+
+@font-face {
 	font-family: QuarkBit-Theme1;
-	src: url("notosans3.otf");
-} 
+	src: url("https://sorenericment.github.io/NotoSansCJK-Light-3.otf");
+}
+
+#page-header{
+	width: 94%;
+	height: 86px;
+	overflow: hidden;
+	margin:auto;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+	z-index: 100;
+	padding: 20px;
+	padding-left:40px;
+	box-sizing: border-box;
+}
+
+#page-header:before {
+	content: "";
+	z-index: -1;
+	-webkit-filter: blur(30px);
+	filter: blur(30px);
+	margin: -30px; 
+	padding:0px;
+	padding-left:40px;
+	background: url(https://sorenericment.github.io/main-background.png) center top;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.grid_4{
+	font-size:32px;
+	margin-top:-18px;
+	margin-left:4px;
+	margin-right:8px;
+	color:#0924bb;
+}
+
+.grid_12{
+	font-size:22px;
+	margin-top:-12px;
+	margin-left:16px;
+	color:#0208ab;
+}
+
+#copyright-foot{
+	position:absolute;
+	width:100%;
+	bottom:4px;
+	box-sizing: border-box;
+	overflow:hidden;
+}
+
+#end-information{
+	display:block;
+	font-size:16px;
+	text-align:center;
+	color:#bbbbbb;
+}
