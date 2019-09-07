@@ -2,7 +2,7 @@
  Theme Name: QuarkBit
  Theme URI: quarkbit.winsloweric.cn
  Description: Quarkbit Project
- Version: Insider Debug V1.32
+ Version: Alpha 1.0
  Author: Winslow SorenEricMent
  Author URI: www.winsloweric.cn
  Tags: QuarkBitTheme
@@ -87,4 +87,10 @@ html {
 	font-size:16px;
 	text-align:center;
 	color:#bbbbbb;
+}
+.grid_4{
+	font-size:24px;
+}
+.sidebar-index{
+	font-size:28px;
 }
