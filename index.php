@@ -5,6 +5,7 @@
 	<div class="content-container">
 		<br/>
 		<a class="title-index" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+		<?php the_excerpt(); ?>
 	</div>
 <?php endwhile; ?>
 
