@@ -2,6 +2,11 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+	.homelink{
+		font-size:32px;
+	}
+</style>
 <title>
 <?php
 if (is_home()) {
@@ -31,14 +36,17 @@ if (is_home()) {
 	<body>
 		<br/>
 		<header id="page-header">
-				&nbsp;&nbsp;<span class="grid_4"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></span>
+				&nbsp;&nbsp;<span class="homelink"><a class="homelink" href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></span>
 				<span class="grid_12 caption clearfix">&nbsp;<?php bloginfo('description'); ?></span>
 				<ul class="page-index">
 					<li class="index-details"><a class="index-links">奇怪的东西</a></li>
 					<li class="index-details"><a class="index-links">文章</a></li>
 					<li class="index-details"><a class="index-links">APIs</a></li>
-					<li class="index-details"><a class="index-links">关于我</a></li>
+					<li class="index-details"><a href="/wp-content/themes/Quarkbit/about.php" class="index-links">关于我</a></li>
 				</ul>
 		</header>
+		<script id="content-short">
+			
+		</script>
 	</body>
 </html>

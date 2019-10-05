@@ -2,7 +2,7 @@
  Theme Name: QuarkBit
  Theme URI: quarkbit.winsloweric.cn
  Description: Quarkbit Project
- Version: Alpha 1.0
+ Version: Alpha 1.2.2
  Author: Winslow SorenEricMent
  Author URI: www.winsloweric.cn
  Tags: QuarkBitTheme
@@ -12,7 +12,9 @@
 	font-family: "NotoSansCJK-Light-3","Microsoft Yahei UI Light","Microsoft Yahei Light","PingFangSC-Ultralight","QuarkBit-Theme1";
 	text-decoration:none;
 }
-
+li{
+	list-style: none;
+}
 body {
 	margin: 0px auto;
 	padding: 0px;
@@ -89,8 +91,46 @@ html {
 	color:#bbbbbb;
 }
 .grid_4{
-	font-size:24px;
+	font-size:16px;
 }
 .sidebar-index{
-	font-size:28px;
+	font-size:20px;
 }
+#page-sidebar{
+	float:right;
+	width: 24%;
+	height: 50%;
+	overflow: hidden;
+	margin:auto;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+	z-index: 100;
+	padding: 5px;
+	margin-top:50px;
+	margin-right:3%;
+	box-sizing: border-box;
+}
+#page-sidebar:before {
+	content: "";
+	z-index: -1;
+	-webkit-filter: blur(30px);
+	filter: blur(30px);
+	margin: -30px; 
+	padding:0px;
+	background: url(https://sorenericment.github.io/main-background.png) center top;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.content-container{
+	width:40%;
+	height:76px;
+	margin:20px;
+	margin-left:4%;
+	border:2px solid #0208AB;
+	box-sizing:border-box;
+}
+.title-index{
+	font-size:24px;
+	display:block;
+	margin:auto;
+}
+

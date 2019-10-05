@@ -14,7 +14,9 @@
 	margin-right: 26px;
 	float: right;
 }
-
+.homelink{
+	font-size:32px;
+}
 .index-details:hover {
 	animation: indexDetails 1s;
 	-moz-animation: indexDetails 1s;
