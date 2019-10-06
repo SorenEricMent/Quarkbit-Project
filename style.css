@@ -127,7 +127,7 @@ html {
 	margin-top:26px;
 	margin-bottom:26px;
 	margin-left:4%;
-	border:2px solid #555555;
+	border:2px solid #222222;
 	padding:6px;
 	padding-left:2%;
 	box-sizing:border-box;
@@ -140,5 +140,5 @@ html {
 }
 .blog-excerpt{
 	font-size:18px;
-	color:#000;
+	color:#0f0f0f;
 }
