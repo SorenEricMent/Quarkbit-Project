@@ -30,7 +30,14 @@
 		<span  class="sidebar-index">友情连接</span>
 		<br/>
 		<ul>
-			
+			<li>
+				<a href="http://tjsblog.tk">TJ's Blog</a>
+				<br/>
+			</li>
+			<li>
+				<a href="http://www.mr-robin.top">Robin's Blog</a>
+				<br/>
+			</li>
 		</ul>
 	</div>
 </nav>

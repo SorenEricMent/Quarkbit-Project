@@ -42,7 +42,7 @@ if (is_home()) {
 					<li class="index-details"><a class="index-links">奇怪的东西</a></li>
 					<li class="index-details"><a class="index-links">文章</a></li>
 					<li class="index-details"><a class="index-links">APIs</a></li>
-					<li class="index-details"><a href="/wp-content/themes/Quarkbit/about.php" class="index-links">关于我</a></li>
+					<li class="index-details"><a href="/about" class="index-links">关于我</a></li>
 				</ul>
 		</header>
 		<script id="content-short">

@@ -2,7 +2,7 @@
  Theme Name: QuarkBit
  Theme URI: quarkbit.winsloweric.cn
  Description: Quarkbit Project
- Version: Alpha 1.2.2B
+ Version: Alpha 1.2.2D
  Author: Winslow SorenEricMent
  Author URI: www.winsloweric.cn
  Tags: QuarkBitTheme
@@ -121,16 +121,24 @@ html {
 	background-attachment: fixed;
 }
 .content-container{
-	width:40%;
-	height:76px;
+	width:55%;
+	height:140px;
 	margin:20px;
+	margin-top:26px;
+	margin-bottom:26px;
 	margin-left:4%;
-	border:2px solid #0208AB;
+	border:2px solid #555555;
+	padding:6px;
+	padding-left:2%;
 	box-sizing:border-box;
+	overflow:hidden;
 }
 .title-index{
 	font-size:24px;
 	display:block;
 	margin:auto;
 }
-
+.blog-excerpt{
+	font-size:18px;
+	color:#2f2f2f;
+}
