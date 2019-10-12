@@ -1,4 +1,5 @@
 <?php get_header();?>
+<?php get_sidebar();?>
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 <h3 class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 <script>
