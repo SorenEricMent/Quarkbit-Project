@@ -16,28 +16,12 @@
 		<span class="sidebar-index">最新文章</span>
 		<ul>
 			<?php
-			$posts = get_posts('numberposts=4&orderby=post_date');
-			foreach ($posts as $post) {
-				setup_postdata($post);
+			$sidebarp = get_posts('numberposts=4&orderby=post_date');
+			foreach ($sidebarp as $post) {
 				echo '<li><a href="' . get_permalink() . '">' . get_the_title() . '</a></li>';
 			}
-			$post = $posts[0];
 			?>
 		</ul>
 		<?php endif; ?>
-	</div>
-	<div id="friend-link">
-		<span  class="sidebar-index">友情连接</span>
-		<br/>
-		<ul>
-			<li>
-				<a href="http://tjsblog.tk">TJ's Blog</a>
-				<br/>
-			</li>
-			<li>
-				<a href="http://www.mr-robin.top">Robin's Blog</a>
-				<br/>
-			</li>
-		</ul>
 	</div>
 </nav>
