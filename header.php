@@ -32,7 +32,6 @@ if (is_home()) {
  ?>
 		</title>
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
-		<link rel="stylesheet" href="/wp-content/themes/Quarkbit/header.css" type="text/css" media="screen" />
 	</head>
 	<body>
 		<br/>
