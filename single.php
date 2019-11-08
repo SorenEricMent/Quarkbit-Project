@@ -1,8 +1,11 @@
+<div id="background-image-container">
+	</div>
 <?php get_header();?>
 <?php get_sidebar(); ?>
 <div id="main-content-container">
 <?php if (have_posts()) : the_post(); update_post_caches($posts); ?>
 	<span class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></span>
+	<br/>
 	<?php the_content(); ?>
 	<?php else : ?>
 	<div class="errorbox">
@@ -10,9 +13,10 @@
 	</div>
 	<?php endif; ?></div>
 
-
-<?php the_tags('标签：', ', ', ''); ?>
+<br/>
+<span id="article-tags"><?php the_tags('标签：', ', ', ''); ?></span>
 <?php comments_popup_link('0 条评论', '1 条评论', '% 条评论', '', '评论已关闭'); ?>
+<?php comments_template( $file, $separate_comments ); ?>
 <?php edit_post_link('编辑', '|', ''); ?>
 <p class="clearfix">
 	<a href="<?php echo get_option('home'); ?>" class="button float" >返回首页</a>

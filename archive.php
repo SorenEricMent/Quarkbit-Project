@@ -1,7 +1,8 @@
 <?php/*
 Template Name: archives
 */?>
-
+<div id="background-image-container">
+	</div>
 <?php get_header();?>
 <?php if(have_posts()) : ?>
 <?php while(have_posts()) : the_post(); ?>

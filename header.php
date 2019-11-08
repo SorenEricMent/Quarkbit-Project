@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+		<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style>
 	.homelink{
@@ -39,14 +40,11 @@ if (is_home()) {
 				&nbsp;&nbsp;<span class="homelink"><a class="homelink" href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></span>
 				<span class="grid_12 caption clearfix">&nbsp;<?php bloginfo('description'); ?></span>
 				<ul class="page-index">
-					<li class="index-details"><a href="/other" class="index-links">其他</a></li>
-					<li class="index-details"><a href="/archives" class="index-links">文章</a></li>
+					<li class="index-details"><a href="/other" class="index-links">Other</a></li>
+					<li class="index-details"><a href="/archives" class="index-links">Documents</a></li>
 					<li class="index-details"><a href="/api" class="index-links">APIs</a></li>
-					<li class="index-details"><a href="/about" class="index-links">关于</a></li>
+					<li class="index-details"><a href="/about" class="index-links">About</a></li>
 				</ul>
 		</header>
-		<script id="content-short">
-			
-		</script>
 	</body>
 </html>
