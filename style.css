@@ -2,7 +2,7 @@
  Theme Name: QuarkBit
  Theme URI: quarkbit.winsloweric.cn
  Description: Quarkbit Project
- Version: Alpha 1.2.5B
+ Version: Alpha 1.2.6
  Author: Winslow SorenEricMent
  Author URI: www.winsloweric.cn
  Tags: QuarkBitTheme
@@ -139,66 +139,14 @@ html {
 	padding:20px;
 	padding-top:146px;
 	font-size:18px;
+	width:65%;
+	word-wrap:break-word;
+	box-sizing:border-box;
 }
 #header-position{
 	z-index:5;
 }
 #scroll-container{
 	margin-top:10%;
-}
-* {
-	text-decoration: none;
-}
-.page-index {
-	display: inline-block;
-	position: relative;
-	float: right;
-	margin: 1px;
-}
-.index-details {
-	list-style: none;
-	display: inline;
-	font-size: 24px;
-	margin-right: 26px;
-	float: right;
-}
-.homelink{
-	font-size:32px;
-}
-.index-details:hover {
-	animation: indexDetails 1s;
-	-moz-animation: indexDetails 1s;
-	-webkit-animation: indexDetails 1s;
-	-o-animation: indexDetails 1s;
-	animation-fill-mode:forwards;
-	-moz-animation-fill-mode:forwards;
-	-webkit-animation-fill-mode:forwards;
-	-o-animation-fill-mode:forwards;
-}
-
-@keyframes indexDetails
-{
-0%   {color: #000;text-decoration:underline;}
-100% {color: #1022cc;text-decoration:underline;}
-}
-
-@-moz-keyframes indexDetails /* Firefox */
-{
-0%   {color: #000;text-decoration:underline;}
-100% {color: #1022cc;text-decoration:underline;}
-}
-
-
-@-webkit-keyframes indexDetails /* Safari 和 Chrome */
-{
-0%   {color: #000;text-decoration:underline;}
-100% {color: #1022cc;text-decoration:underline;}
-}
-
-
-@-o-keyframes indexDetails /* Opera */
-{
-0%   {color: #000;text-decoration:underline;}
-100% {color: #1022cc;text-decoration:underline;}
 }
 
