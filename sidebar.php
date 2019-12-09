@@ -1,5 +1,6 @@
 <nav id="page-sidebar">
 	<div class="grid_4">
+		<br/>
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 		<?php if ( !function_exists('dynamic_sidebar')
 || !dynamic_sidebar('First_sidebar') ) :
@@ -23,5 +24,9 @@
 			?>
 		</ul>
 		<?php endif; ?>
+	</div>
+	<div id="nav-down-guide">
+		<span  class="sidebar-index">友情连接</span>
+		<br/>
 	</div>
 </nav>
